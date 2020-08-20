@@ -69,4 +69,4 @@ palabra = "perro y gato"
 
 s = silabizer()
 
-print(s(palabra))
+#print(s(palabra))
