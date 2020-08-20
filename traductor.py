@@ -1,7 +1,7 @@
 from syl_module import silabizer
 
 s = silabizer()
-p = "esto traduce un texto a jeringozo"
+p = "ahora estoy testeando la letra y"
 l = s(p)
 print(l)
 res = ""
@@ -28,5 +28,9 @@ for sil in l:
 	elif "u" in ger:
 		res += ger
 		res += "pu "
+
+	elif "y" in ger:
+		res += ger
+		res += "pi "
 
 print(res)
