@@ -4,34 +4,34 @@ s = silabizer()
 palabra = "estoy hablando en jeringoso y probando la letra y"
 palabraEnSilabas = s(palabra)
 print(palabraEnSilabas)
-palabraEnJeringoso = ""
+palabraEnJeringozo = ""
 
 for silaba in palabraEnSilabas:
 	stringSilaba = str(silaba).strip()
 	#print(stringSilaba)
 	if "a" in stringSilaba:
-		palabraEnJeringoso += stringSilaba
-		palabraEnJeringoso += "pa "
+		palabraEnJeringozo += stringSilaba
+		palabraEnJeringozo += "pa "
 
 	elif "e" in stringSilaba:
-		palabraEnJeringoso += stringSilaba
-		palabraEnJeringoso += "pe "
+		palabraEnJeringozo += stringSilaba
+		palabraEnJeringozo += "pe "
 		
 	elif "i" in stringSilaba:
-		palabraEnJeringoso += stringSilaba
-		palabraEnJeringoso += "pi "
+		palabraEnJeringozo += stringSilaba
+		palabraEnJeringozo += "pi "
 		
 	elif "o" in stringSilaba:
-		palabraEnJeringoso += stringSilaba
-		palabraEnJeringoso += "po "
+		palabraEnJeringozo += stringSilaba
+		palabraEnJeringozo += "po "
 		
 	elif "u" in stringSilaba:
-		palabraEnJeringoso += stringSilaba
-		palabraEnJeringoso += "pu "
+		palabraEnJeringozo += stringSilaba
+		palabraEnJeringozo += "pu "
 
 	elif "y" in stringSilaba:
-		palabraEnJeringoso += stringSilaba
-		palabraEnJeringoso += "pi "
+		palabraEnJeringozo += stringSilaba
+		palabraEnJeringozo += "pi "
 
 
-print(palabraEnJeringoso)
+print(palabraEnJeringozo)
